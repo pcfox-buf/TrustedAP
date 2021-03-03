@@ -1,9 +1,6 @@
 //////////////////////////////////////////////////////////
 // TrustedAP-Dapp/TrustedAP-app (Phase 7 Final Submission)
 // Author: Phil Fox (pcfox@buffalo.edu)
-// UBIT Number: 50313802
-// CSE 526; Dr. Bina Ramamurthy
-// TA Assigned: Chunwei Ma
 
 Dependencies: 
 	Each listed in ../TrustedAP-contract/README.md
