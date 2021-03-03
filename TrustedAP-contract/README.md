@@ -1,9 +1,6 @@
 ///////////////////////////////////////////////////////////////
-// TrustedAP-Dapp/TrustedAP-contract (Phase 7 Final Submission)
+// TrustedAP-Dapp/TrustedAP-contract
 // Author: Phil Fox (pcfox@buffalo.edu)
-// UBIT Number: 50313802
-// CSE 526; Dr. Bina Ramamurthy
-// TA Assigned: Chunwei Ma
 
 Dependencies (Current versions as of Nov 7, 2020): 
 Truffle
