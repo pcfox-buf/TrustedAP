@@ -4,14 +4,12 @@ Source code supporting blockchain focused mitigation of the wireless network Evi
 ////////////////////////////////////////////////////////////
 // TrustedAP-Dapp/TrustedAP-app
 // Author: Phil Fox (pcfox@buffalo.edu)
-
-	0. AllFeatures
-		port 3000 [Chairperson (deployer) address: 
-		0x90dB22c5014fcF6471e58D3D7e7E463E44EEd754]
 	
 	Please see 
-		AllFeatures/TrustedAP-app/README.md 
-	for remaining testing instructions.
+		/TrustedAP-contract/README.md 
+			-and next-
+		/TrustedAP-app/README.md
+	for local testing instructions.
 
 ///////////////////////////////////////////////////////////////////////////////
 
