@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////
-// TrustedAP-Dapp/TrustedAP-app (Phase 7 Final Submission)
+// TrustedAP-Dapp/TrustedAP-app
 // Author: Phil Fox (pcfox@buffalo.edu)
 
 Dependencies: 
