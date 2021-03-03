@@ -5,11 +5,6 @@ Source code supporting blockchain focused mitigation of the wireless network Evi
 // TrustedAP-Dapp/TrustedAP-app
 // Author: Phil Fox (pcfox@buffalo.edu)
 
-	The following app deploys and functions on the Ropsten TestNet 
-	blockchain under contract address:
-	 
-	0x9FC1E85FAd9034597B37BcA4eD2dab37849eb161
-
 	0. AllFeatures
 		port 3000 [Chairperson (deployer) address: 
 		0x90dB22c5014fcF6471e58D3D7e7E463E44EEd754]
