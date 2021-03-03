@@ -3,10 +3,10 @@
 // Author: Phil Fox (pcfox@buffalo.edu)
 
 Dependencies (Current versions as of Nov 7, 2020): 
-Truffle
-Ganache
-Metamask
-Remix IDE
+Truffle,
+Ganache,
+Metamask,
+Remix IDE,
 Google Chrome Browser
 
 The following steps enable blockchain emulation for TrustedAP-Dapp when executed
