@@ -32,4 +32,3 @@ Source code supporting blockchain focused mitigation of the wireless network Evi
 
 You are encouraged to contact the author with any questions or requests. 
 	Thank you for using TrustedAP!
->>>>>>> 4530a9e... migrate application and contract
