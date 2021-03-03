@@ -22,9 +22,9 @@ The following steps enable blockchain emulation for TrustedAP-Dapp when executed
 6. In the current working directory execute:
 	$ truffle compile
 	$ truffle migrate --reset
-7a. [Smart contract only deployment] Copy 'Contract address' from stdout to 
+7. a) [Smart contract only deployment] Copy 'Contract address' from stdout to 
 	Remix 'AtAddress'
-7b. [Web deployment] Follow steps in ../TrustedAP-app/README.md
+7. b) [Web deployment] Follow steps in ../TrustedAP-app/README.md
 
 Please contact the author with any questions or requests. Thank you for using
 	TrustedAP!
