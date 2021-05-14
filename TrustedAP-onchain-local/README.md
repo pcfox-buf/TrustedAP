@@ -13,10 +13,7 @@ Source code supporting blockchain focused mitigation of the wireless network Evi
 
 ///////////////////////////////////////////////////////////////////////////////
 
-Public deployment apps are available for testing!
-	
-Please consult ./TrustedAP-Infura-full/README.md for specific roles and 
-	instructions!
+	Public deployment apps are available for testing under ../Public
 	
 You are encouraged to contact the author with any questions or requests. 
 	Thank you for using TrustedAP!

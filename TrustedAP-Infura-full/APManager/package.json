@@ -1,0 +1,17 @@
+{
+  "name": "trustedap-app",
+  "version": "0.1.0",
+  "private": "true",
+  "description": "Migrate trust upwards to blockchain verfied ownership",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Phil Fox",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-rsa": "^1.1.1",
+    "keccak256": "^1.0.2"
+  }
+}
