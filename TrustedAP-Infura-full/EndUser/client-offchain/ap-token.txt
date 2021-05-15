@@ -1,0 +1,3 @@
+_gateway (10.14.14.1) at 00:50:56:86:4d:9f [ether] on ens160
+default via 10.14.14.1 dev ens160 proto static metric 100 
+10.14.14.0/24 dev ens160 proto kernel scope link src 10.14.14.2 metric 100 
