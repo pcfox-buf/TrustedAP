@@ -41,7 +41,7 @@ App = {
   },
 
   initContract: function() {
-    $.getJSON('TrustedAP.json', function(data) {
+    $.getJSON('./js/webLauncher.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with truffle-contract
       var tapArtifact = data;
       App.contracts.tap = TruffleContract(tapArtifact);
