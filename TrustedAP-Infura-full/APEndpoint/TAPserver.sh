@@ -14,7 +14,7 @@ echo 'Engaging TrustedAP Server'
 
 while [[ -z $ACK ]]
 do
-	nc -q 0 $CLIENT $SPORT < introfile.txt
+	nc -q 0 $CLIENT $SPORT < ./ap-offchain/addressfile.txt
 	echo '-attempt-'
 	ACK=$(timeout 5 nc -l $CPORT)
 done
@@ -25,11 +25,11 @@ nc -l $CPORT > $TEMP1
 nc -l $CPORT > $TEMP2
 echo -n "ACK" | nc -q 0 $CLIENT $SPORT
 
-openssl rsautl -verify -inkey $TEMP1 -pubin -in $TEMP2 > client-token.txt
+openssl rsautl -verify -inkey $TEMP1 -pubin -in $TEMP2 > ./ap-offchain/client-token.txt
 rm $TEMP1 $TEMP2
 
 echo "Verify client network token:"
 while IFS= read -r line
 do
 	echo $line
-done < client-token.txt
+done < ./offchain/client-token.txt
