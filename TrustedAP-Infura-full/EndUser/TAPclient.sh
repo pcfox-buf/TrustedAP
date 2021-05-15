@@ -30,13 +30,13 @@ do
 	echo $line
 done < $TEMP2
 
-openssl genrsa -out pair.pem 2048
-openssl rsa -in pair.pem -out pub.pem -outform PEM -pubout
-openssl rsautl -sign -inkey pair.pem -in $TEMP2 -out $TEMP3
+openssl genrsa -out ./client-offchain/pair.pem 2048
+openssl rsa -in pair.pem -out ./client-offchain/pub.pem -outform PEM -pubout
+openssl rsautl -sign -inkey ./client-offchain pair.pem -in $TEMP2 -out $TEMP3
 
 rm -r $TEMP2
 
-nc -q 0 $SERVER $CPORT < pub.pem
+nc -q 0 $SERVER $CPORT < ./offchain/pub.pem
 sleep 0.2
 nc -q 0 $SERVER $CPORT < $TEMP3
 while [ -z $ACK ]
